@@ -5,6 +5,7 @@ pkg/
 /click/
 /go-installation/
 /src/gopkg.in/
+/src/code.google.com/
 
 # Gedit files
 
@@ -12,8 +13,13 @@ pkg/
 
 # Copied host binary
 
-/ubuntu-go-qml-template
+/ubuntu-gmail-app
 
 # Ubuntu SDK files
 
 *.goproject.user
+
+# IntelliJ files
+
+/.idea
+*.iml

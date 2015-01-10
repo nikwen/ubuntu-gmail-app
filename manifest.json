@@ -1,17 +1,17 @@
 {
-    "name": "com.ubuntu.developer.nikwen.ubuntu-go-qml-template",
-    "description": "description of ubuntu-go-qml-template",
     "architecture": "armhf",
-    "title": "ubuntu-go-qml-template",
+    "description": "GMail app proof of concept",
+    "framework": "ubuntu-sdk-14.10",
     "hooks": {
-        "ubuntu-go-qml-template": {
-            "apparmor": "ubuntu-go-qml-template.apparmor",
-            "desktop":  "ubuntu-go-qml-template.desktop"
+        "ubuntu-gmail-app": {
+            "account-application": "ubuntu-gmail-app.application",
+            "account-service": "ubuntu-gmail-app.service",
+            "apparmor": "ubuntu-gmail-app.apparmor",
+            "desktop": "ubuntu-gmail-app.desktop"
         }
     },
-    "version": "0.1",
     "maintainer": "Niklas Wenzel <nikwen.developer@gmail.com>",
-    "framework" : "ubuntu-sdk-14.10"
+    "name": "com.ubuntu.developer.nikwen.ubuntu-gmail-app",
+    "title": "ubuntu-gmail-app",
+    "version": "0.1"
 }
-
-

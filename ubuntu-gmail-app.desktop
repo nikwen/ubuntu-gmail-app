@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GMail app proof of concept
+Exec=ubuntu-gmail-app
+Icon=ubuntu-gmail-app.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

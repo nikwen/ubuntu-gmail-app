@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<application>
+  <services>
+    <service id="com.ubuntu.developer.nikwen.ubuntu-gmail-app_ubuntu-gmail-app">
+      <description>GMail app proof of concept</description>
+    </service>
+  </services>
+</application>

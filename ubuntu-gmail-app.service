@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+  <type>com.ubuntu.developer.nikwen.ubuntu-gmail-app_ubuntu-gmail-app</type>
+  <name>Gmail</name>
+  <provider>google</provider>
+  <template>
+    <group name="auth">
+      <setting name="method">oauth2</setting>
+      <setting name="mechanism">web_server</setting>
+      <group name="oauth2">
+        <group name="web_server">
+          <setting type="as" name="Scope">['https://www.googleapis.com/auth/gmail.modify']</setting>
+          <setting name="ClientId">YOUR_CLIENT_ID</setting>
+          <setting name="ClientSecret">YOUR_CLIENT_SECRET</setting>
+        </group>
+      </group>
+    </group>
+  </template>
+</service>
